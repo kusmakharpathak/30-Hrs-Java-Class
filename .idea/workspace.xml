@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee37e29b-5eda-4986-842a-f568d88bfd4c" name="Default Changelist" comment="" />
+    <list default="true" id="ee37e29b-5eda-4986-842a-f568d88bfd4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/part3/MatrixMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part3/TwoDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +14,21 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VIc9LSmYwhqxrIV5pUn01xR1yW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/part3" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -35,6 +51,82 @@
       <recent name="$PROJECT_DIR$/src/part3" />
       <recent name="$PROJECT_DIR$/src/part1" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.check (1)">
+    <configuration name="MatrixMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part3.MatrixMultiply" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part4.Methods" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part3.TwoDArray" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part3.check" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part4.check" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.check (1)" />
+        <item itemvalue="Application.check" />
+        <item itemvalue="Application.Methods" />
+        <item itemvalue="Application.TwoDArray" />
+        <item itemvalue="Application.MatrixMultiply" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -58,7 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576943896718</updated>
-      <workItem from="1576943900016" duration="284000" />
+      <workItem from="1576943900016" duration="2928000" />
+      <workItem from="1576986515847" duration="599000" />
+      <workItem from="1576995159806" duration="7033000" />
     </task>
     <servers />
   </component>
@@ -70,6 +164,42 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="839" y="445" width="302" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576944044843" />
+    <state width="684" height="336" key="GridCell.Tab.0.bottom" timestamp="1577003005682">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1576999435144">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.bottom.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435144" />
+    <state width="654" height="307" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829545" />
+    <state width="684" height="336" key="GridCell.Tab.0.bottom/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
+    <state width="684" height="336" key="GridCell.Tab.0.center" timestamp="1577003005682">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1576999435143">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.center.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="654" height="307" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829542" />
+    <state width="684" height="336" key="GridCell.Tab.0.center/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
+    <state width="684" height="336" key="GridCell.Tab.0.left" timestamp="1577003005682">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1576999435143">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.left.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="654" height="307" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829541" />
+    <state width="684" height="336" key="GridCell.Tab.0.left/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
+    <state width="684" height="336" key="GridCell.Tab.0.right" timestamp="1577003005682">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1576999435143">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state width="800" height="489" key="GridCell.Tab.0.right.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="654" height="307" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829543" />
+    <state width="684" height="336" key="GridCell.Tab.0.right/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
     <state x="304" y="133" width="1372" height="848" key="new project wizard" timestamp="1576944110824">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
