@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee37e29b-5eda-4986-842a-f568d88bfd4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/part3/MatrixMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part3/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part4/File1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/30+hrsJavaClass/part3/check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/30+hrsJavaClass/part3/check.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/30+hrsJavaClass/part4/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/30+hrsJavaClass/part4/Methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part3/check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part3/check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part4/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part4/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +55,39 @@
       <recent name="$PROJECT_DIR$/src/part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.check (1)">
-    <configuration name="MatrixMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part3.MatrixMultiply" />
+  <component name="RunManager" selected="Application.File1">
+    <configuration name="CalcUsingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part4.CalcUsingMethods" />
       <module name="30+hrsJavaClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part3.*" />
+          <option name="PATTERN" value="part4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="File1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part4.File1" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethidwithArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part4.MethidwithArgs" />
+      <module name="30+hrsJavaClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part3.TwoDArray" />
-      <module name="30+hrsJavaClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="check (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part3.check" />
       <module name="30+hrsJavaClass" />
@@ -105,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part4.check" />
-      <module name="30+hrsJavaClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.check (1)" />
-        <item itemvalue="Application.check" />
+        <item itemvalue="Application.File1" />
+        <item itemvalue="Application.CalcUsingMethods" />
+        <item itemvalue="Application.MethidwithArgs" />
         <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.TwoDArray" />
-        <item itemvalue="Application.MatrixMultiply" />
+        <item itemvalue="Application.check (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +156,8 @@
       <workItem from="1576943900016" duration="2928000" />
       <workItem from="1576986515847" duration="599000" />
       <workItem from="1576995159806" duration="7033000" />
+      <workItem from="1577082001865" duration="31000" />
+      <workItem from="1577082050825" duration="3380000" />
     </task>
     <servers />
   </component>
@@ -164,45 +169,53 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="839" y="445" width="302" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576944044843" />
-    <state width="684" height="336" key="GridCell.Tab.0.bottom" timestamp="1577003005682">
+    <state width="684" height="335" key="GridCell.Tab.0.bottom" timestamp="1577085432656">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1576999435144">
+    <state width="800" height="488" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1577083622045">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.bottom.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435144" />
+    <state width="800" height="488" key="GridCell.Tab.0.bottom.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577083622045" />
     <state width="654" height="307" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829545" />
-    <state width="684" height="336" key="GridCell.Tab.0.bottom/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
-    <state width="684" height="336" key="GridCell.Tab.0.center" timestamp="1577003005682">
+    <state width="684" height="335" key="GridCell.Tab.0.bottom/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577085432656" />
+    <state width="684" height="335" key="GridCell.Tab.0.center" timestamp="1577085432656">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1576999435143">
+    <state width="800" height="488" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1577083622045">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.center.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="800" height="488" key="GridCell.Tab.0.center.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577083622045" />
     <state width="654" height="307" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829542" />
-    <state width="684" height="336" key="GridCell.Tab.0.center/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
-    <state width="684" height="336" key="GridCell.Tab.0.left" timestamp="1577003005682">
+    <state width="684" height="335" key="GridCell.Tab.0.center/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577085432656" />
+    <state width="684" height="335" key="GridCell.Tab.0.left" timestamp="1577085432655">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1576999435143">
+    <state width="800" height="488" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1577083622045">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.left.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="800" height="488" key="GridCell.Tab.0.left.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577083622045" />
     <state width="654" height="307" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829541" />
-    <state width="684" height="336" key="GridCell.Tab.0.left/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
-    <state width="684" height="336" key="GridCell.Tab.0.right" timestamp="1577003005682">
+    <state width="684" height="335" key="GridCell.Tab.0.left/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577085432655" />
+    <state width="684" height="335" key="GridCell.Tab.0.right" timestamp="1577085432656">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1576999435143">
+    <state width="800" height="488" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1577083622045">
       <screen x="70" y="27" width="730" height="573" />
     </state>
-    <state width="800" height="489" key="GridCell.Tab.0.right.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1576999435143" />
+    <state width="800" height="488" key="GridCell.Tab.0.right.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577083622045" />
     <state width="654" height="307" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576946829543" />
-    <state width="684" height="336" key="GridCell.Tab.0.right/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577003005682" />
+    <state width="684" height="335" key="GridCell.Tab.0.right/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577085432656" />
+    <state x="2066" y="0" width="730" height="678" maximized="true" key="dock-window-1" timestamp="1577083972360">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state x="2066" y="0" width="730" height="678" maximized="true" key="dock-window-1/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577083972360" />
     <state x="304" y="133" width="1372" height="848" key="new project wizard" timestamp="1576944110824">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="304" y="133" width="1372" height="848" key="new project wizard/70.27.1850.1053@70.27.1850.1053" timestamp="1576944110824" />
+    <state x="70" y="25" width="1024" height="1470" key="search.everywhere.popup.inPresentationMode" timestamp="1577082970537">
+      <screen x="70" y="27" width="730" height="573" />
+    </state>
+    <state x="70" y="25" width="1024" height="1470" key="search.everywhere.popup.inPresentationMode/70.27.730.573/70.27.730.573@70.27.730.573" timestamp="1577082970537" />
   </component>
 </project>
